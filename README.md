@@ -1,3 +1,5 @@
+[![goodtables.io](https://goodtables.io/badge/github/n0rdlicht/toolbox-municipalities.svg)](https://goodtables.io/github/n0rdlicht/toolbox-municipalities)
+
 # Swiss Municipalities
 
 > This repository is part of the Smartuse Toolbox
@@ -5,6 +7,7 @@
 This repository compiles tools to generate a Frictionless Data compliant Datapackage of the current Swiss municipalities in CSV and JSON formats. 
 
 Published on [Datahub](https://datahub.io/n0rdlicht/ch-municipalities/v/1).
+Validated on [GoodTables](https://goodtables.io)
 
 ## Prerequisites
 
