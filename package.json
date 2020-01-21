@@ -1,0 +1,21 @@
+{
+  "name": "ch-municipalities",
+  "version": "1.0.0",
+  "description": "Swiss Municipalities List as CSV and JSON",
+  "keywords": [
+    "json",
+    "csv",
+    "gpkg"
+  ],
+  "author": {
+    "name": "Thorben Westerhuys",
+    "url": "http://smartuse.ch/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smartuse/toolbox-municipalities.git"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}

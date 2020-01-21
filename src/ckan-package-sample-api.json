@@ -1,0 +1,263 @@
+{
+    "help": "https://opendata.swiss/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "license_title": null,
+        "maintainer": "geodata@swisstopo.ch",
+        "coverage": "",
+        "issued": "2020-01-01T01:00:00",
+        "private": false,
+        "maintainer_email": "geodata@swisstopo.ch",
+        "num_tags": 0,
+        "contact_points": [{
+            "email": "geodata@swisstopo.ch",
+            "name": "geodata@swisstopo.ch"
+        }],
+        "keywords": {
+            "fr": ["unites-administratives", "inspire", "limite-de-commune-limite-communale", "commune"],
+            "de": ["verwaltungseinheiten", "inspire", "gemeindegrenze", "gemeinde"],
+            "en": ["administrative-units", "inspire", "municipal-boundary", "municipality"],
+            "it": ["unita-amministrative", "inspire", "confine-di-comune-confine-comunale", "comune"]
+        },
+        "temporals": {},
+        "id": "b53cd196-09b0-4081-ae56-4a46dda7fcab",
+        "metadata_created": "2018-02-01T15:39:33.849752",
+        "relationships_as_object": [],
+        "display_name": {
+            "fr": "swissBOUNDARIES3D limites de commune",
+            "de": "swissBOUNDARIES3D Gemeindegrenzen",
+            "en": "swissBOUNDARIES3D municipal boundaries",
+            "it": "swissBOUNDARIES3D limiti comunali"
+        },
+        "metadata_modified": "2020-01-21T02:19:38.002198",
+        "author": "Bundesamt f\u00fcr Landestopografie",
+        "author_email": null,
+        "relations": [{
+            "url": "https://map.geo.admin.ch/?topic=swisstopo&lang=de&bgLayer=ch.swisstopo.pixelkarte-farbe&X=197700.00&Y=653266.20&zoom=1&catalogNodes=1476&layers=ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill",
+            "label": "https://map.geo.admin.ch/?topic=swisstopo&lang=de&bgLayer=ch.swisstopo.pixelkarte-farbe&X=197700.00&Y=653266.20&zoom=1&catalogNodes=1476&layers=ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill"
+        }],
+        "state": "active",
+        "version": null,
+        "spatial": "Schweiz",
+        "license_id": null,
+        "type": "dataset",
+        "resources": [{
+            "byte_size": 0,
+            "coverage": "",
+            "cache_last_updated": null,
+            "issued": "2020-01-01T01:00:00",
+            "package_id": "b53cd196-09b0-4081-ae56-4a46dda7fcab",
+            "datastore_active": false,
+            "id": "3aa35247-7fcc-4b69-b17c-44a32ccd155c",
+            "size": null,
+            "license": "",
+            "display_name": {
+                "fr": "Download",
+                "de": "Download",
+                "en": "Download",
+                "it": "Download"
+            },
+            "title": {
+                "fr": "Download",
+                "de": "Download",
+                "en": "Download",
+                "it": "Download"
+            },
+            "download_url": "http://data.geo.admin.ch/ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill/data.zip",
+            "state": "active",
+            "media_type": "application/zip",
+            "hash": "",
+            "description": {
+                "fr": "Serveur de t\u00e9l\u00e9chargement de geo.admin.ch",
+                "en": "Download server from geo.admin.ch",
+                "de": "Download Server von geo.admin.ch",
+                "it": "Server di download di geo.admin.ch"
+            },
+            "format": "ZIP",
+            "mimetype_inner": null,
+            "url_type": null,
+            "mimetype": null,
+            "cache_url": null,
+            "name": {
+                "fr": "Download",
+                "de": "Download",
+                "en": "Download",
+                "it": "Download"
+            },
+            "language": ["en", "de", "fr", "it"],
+            "rights": "NonCommercialAllowed-CommercialAllowed-ReferenceRequired",
+            "url": "http://data.geo.admin.ch/ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill/data.zip",
+            "created": "2020-01-21T02:19:39.859916",
+            "modified": "2020-01-01T01:00:00",
+            "last_modified": null,
+            "position": 0,
+            "revision_id": "bd9e8b7f-9db3-4545-8ef7-c454cc586095",
+            "identifier": "",
+            "resource_type": null
+        }, {
+            "byte_size": 0,
+            "coverage": "",
+            "cache_last_updated": null,
+            "issued": "2020-01-01T01:00:00",
+            "package_id": "b53cd196-09b0-4081-ae56-4a46dda7fcab",
+            "datastore_active": false,
+            "id": "84e6dad2-5884-4413-aab7-740229a13cf9",
+            "size": null,
+            "license": "",
+            "display_name": {
+                "fr": "WMS (GetCapabilities) ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill",
+                "de": "WMS (GetCapabilities) ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill",
+                "en": "WMS (GetCapabilities) ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill",
+                "it": "WMS (GetCapabilities) ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill"
+            },
+            "title": {
+                "fr": "WMS (GetCapabilities) ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill",
+                "de": "WMS (GetCapabilities) ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill",
+                "en": "WMS (GetCapabilities) ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill",
+                "it": "WMS (GetCapabilities) ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill"
+            },
+            "download_url": "",
+            "state": "active",
+            "media_type": "",
+            "hash": "",
+            "description": {
+                "fr": "Service WMS de geo.admin.ch",
+                "en": "WMS Service from geo.admin.ch",
+                "de": "WMS Dienst von geo.admin.ch",
+                "it": "Servizio WMS di geo.admin.ch"
+            },
+            "format": "SERVICE",
+            "mimetype_inner": null,
+            "url_type": null,
+            "mimetype": null,
+            "cache_url": null,
+            "name": {
+                "fr": "WMS (GetCapabilities) ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill",
+                "de": "WMS (GetCapabilities) ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill",
+                "en": "WMS (GetCapabilities) ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill",
+                "it": "WMS (GetCapabilities) ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill"
+            },
+            "language": ["de"],
+            "rights": "NonCommercialAllowed-CommercialAllowed-ReferenceRequired",
+            "url": "http://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities&lang=de",
+            "created": "2020-01-21T02:19:39.859953",
+            "modified": "2020-01-01T01:00:00",
+            "last_modified": null,
+            "position": 1,
+            "revision_id": "bd9e8b7f-9db3-4545-8ef7-c454cc586095",
+            "identifier": "",
+            "resource_type": null
+        }],
+        "publishers": [{
+            "label": "Bundesamt f\u00fcr Landestopografie"
+        }],
+        "num_resources": 2,
+        "description": {
+            "fr": "swissBOUNDARIES3D limites de commune comprend les limites administratives des communes de la Suisse et de la Principaut\u00e9 de Liechtenstein. La commune est la plus petite unit\u00e9 administrative. swissBOUNDARIES3D limites de commune est d\u00e9riv\u00e9 du jeu de donn\u00e9es swissBOUNDARIES3D.",
+            "de": "swissBOUNDARIES3D Gemeindegrenzen umfasst die administrativen Grenzen der Gemeinden der Schweiz und des F\u00fcrstentums Liechtenstein. Die Gemeinde ist die kleinste administrative Einheit. swissBOUNDARIES3D Gemeindegrenzen ist ein Derivat des Elterndatensatzes swissBOUNDARIES3D.",
+            "en": "swissBOUNDARIES3D municipal boundaries constitute the administrative borders of the municipalities of Switzerland and the principality of Liechtenstein. The commune is the smallest administrative unit.swissBOUNDARIES3D municipal boundaries is derived from the parent dataset swissBOUNDARIES3D.",
+            "it": "swissBOUNDARIES3D frontiere cantonali contiene le frontiere amministrative tra i cantoni svizzeri. La Svizzera \u00e9 formata da 26 cantoni, i quali hanno lo statuto di Stato federale.swissBOUNDARIES3D frontiere cantonali \u00e9 derivato dal set di dati swissBOUNDARIES3D."
+        },
+        "tags": [],
+        "title": {
+            "fr": "swissBOUNDARIES3D limites de commune",
+            "de": "swissBOUNDARIES3D Gemeindegrenzen",
+            "en": "swissBOUNDARIES3D municipal boundaries",
+            "it": "swissBOUNDARIES3D limiti comunali"
+        },
+        "language": [],
+        "groups": [{
+            "display_name": {
+                "fr": "G\u00e9ographie",
+                "de": "Geographie",
+                "en": "Geography",
+                "it": "Geografia"
+            },
+            "description": {
+                "fr": "",
+                "de": "",
+                "en": "",
+                "it": ""
+            },
+            "image_display_url": "",
+            "title": {
+                "fr": "G\u00e9ographie",
+                "de": "Geographie",
+                "en": "Geography",
+                "it": "Geografia"
+            },
+            "id": "a20e9d52-0d20-413c-a8ad-9ffd4523bec6",
+            "name": "geography"
+        }, {
+            "display_name": {
+                "fr": "Territoire et environnement",
+                "de": "Raum und Umwelt",
+                "en": "Territory and environment",
+                "it": "Territorio e ambiente"
+            },
+            "description": {
+                "fr": "",
+                "de": "",
+                "en": "",
+                "it": ""
+            },
+            "image_display_url": "",
+            "title": {
+                "fr": "Territoire et environnement",
+                "de": "Raum und Umwelt",
+                "en": "Territory and environment",
+                "it": "Territorio e ambiente"
+            },
+            "id": "27b314a5-57b6-4c4e-9c9f-6923365eaecc",
+            "name": "territory"
+        }],
+        "creator_user_id": "0594d621-c92a-4a32-809c-98e281dc7944",
+        "relationships_as_subject": [],
+        "organization": {
+            "display_name": {
+                "fr": "Office f\u00e9d\u00e9ral de topographie swisstopo",
+                "de": "Bundesamt f\u00fcr Landestopografie swisstopo",
+                "en": "Federal Office of Topography swisstopo",
+                "it": "Ufficio federale di topografia swisstopo"
+            },
+            "description": {
+                "fr": "Le centre de comp\u00e9tence de la Conf\u00e9d\u00e9ration suisse pour les informations g\u00e9ographiques, c'est-\u00e0-dire pour la description, la repr\u00e9sentation et l\u2019archivage de donn\u00e9es \u00e0 r\u00e9f\u00e9rence spatiale.",
+                "de": "Das Kompetenzzentrum der Schweizerischen Eidgenossenschaft f\u00fcr Geoinformation, d.h. f\u00fcr die Beschreibung, Darstellung und Archivierung von raumbezogenen Geodaten.",
+                "en": "The centre of competence for the Swiss Confederation responsible for geographical reference data, for instance the description, representation and archiving of geographic spatial data.",
+                "it": "Il centro d\u2019eccellenza della Confederazione Elvetica per geoinformazione, cio\u00e8 per la descrizione, rappresentazione e archiviazione dei dati georeferenziati (geodati)."
+            },
+            "image_display_url": "https://opendata.swiss/content/uploads/2016/01/IMG_1857.jpg",
+            "url": "",
+            "package_count": 76,
+            "created": "2015-11-30T12:12:55.529975",
+            "name": "bundesamt-fur-landestopografie-swisstopo",
+            "is_organization": true,
+            "state": "active",
+            "image_url": "https://opendata.swiss/content/uploads/2016/01/IMG_1857.jpg",
+            "revision_id": "8bf6437a-e36d-4c75-a6e1-67b99208a2ad",
+            "groups": [],
+            "type": "organization",
+            "title": {
+                "fr": "Office f\u00e9d\u00e9ral de topographie swisstopo",
+                "de": "Bundesamt f\u00fcr Landestopografie swisstopo",
+                "en": "Federal Office of Topography swisstopo",
+                "it": "Ufficio federale di topografia swisstopo"
+            },
+            "political_level": "confederation",
+            "num_followers": 0,
+            "id": "ddd28bac-6890-474c-84cb-97a85db8d2f1",
+            "tags": [],
+            "approval_status": "approved"
+        },
+        "name": "swissboundaries3d-gemeindegrenzen",
+        "isopen": false,
+        "accrual_periodicity": "http://purl.org/cld/freq/annual",
+        "owner_org": "ddd28bac-6890-474c-84cb-97a85db8d2f1",
+        "modified": "2020-01-01T01:00:00",
+        "url": "",
+        "extras": [],
+        "see_alsos": {},
+        "revision_id": "edb41f4d-14ee-4bae-b061-068b5dd0985a",
+        "identifier": "9961dc6c-20a9-4b16-8a24-b20c3d8ddb83@bundesamt-fur-landestopografie-swisstopo"
+    }
+}
