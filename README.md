@@ -4,28 +4,38 @@
 
 > This repository is part of the Smartuse Toolbox
 
-This repository compiles tools to generate a Frictionless Data compliant Datapackage of the current Swiss municipalities in CSV and JSON formats. 
+This repository compiles tools to generate a Frictionless Data compliant Datapackage of the current Swiss municipalities published by the Swiss Federal Office of Topography [here](https://shop.swisstopo.admin.ch/en/products/landscape/boundaries3D). 
 
-Published on [Datahub](https://datahub.io/n0rdlicht/ch-municipalities/v/1).
+To add new datasets or make modifications, please visit our [GitHub repository](https://github.com/smartuse/toolbox-municipalities) and contact us via Issues or Pull Request.
+
+Published on [Datahub](https://datahub.io/n0rdlicht/ch-municipalities/).
 Validated on [GoodTables](https://goodtables.io)
 
 ## Prerequisites
 
-To convert csv's to json the npm dependency [`csvtojson`](https://github.com/Keyang/node-csvtojson) is used. Hence start by executing
+To generate the CSV files you need to install Node.js, either with the official Node.js installer or via Homebrew:
+
+    brew install node
+
+You also need GDAL and the corresponding python-gdal library installed. On OS X you can also use Homebrew:
+
+    brew install gdal
+
+Now, clone this reposiory and run `make`
 
     git clone https://github.com/smartuse/toolbox-municipalities.git
     cd toolbox-municipalities
     npm install
     make
 
-Now a downloads, build and the data folders should be populated.
+The downloads, build and the data folders should now be populated with processes files.
 
 * `data/gemeinden.csv` contains a list of municipalities
 * `data/gemeinden.json` is the same list as nested JSON
 
 ## Push to Datahub
 
-In order to push to Datahub, you need the [CLI Datahub Tools](https://docs.datahub.io/publishers/cli/) installed. 
+In order to push to Datahub, you need the [CLI Datahub Tools](https://docs.datahub.io/publishers/cli/) installed. They are part of the npm package dependencies, so should already be installed when you ran `npm install` earlier.
 
 Verify that the new package validates
 
@@ -34,3 +44,23 @@ Verify that the new package validates
 Then you can update the list by
 
     data push
+
+## Copyright and License
+
+## Author
+
+Thorben Westerhuys, SmartUse GmbH
+
+## Datapackage
+
+This package is licensed by its maintainers under the Public Domain Dedication and License.
+
+If you intended to use these data in a public or commercial product, please check the data sources themselves for any specific restrictions.
+
+## Geodata
+
+Data source is the Swiss Federal Office of Topography, swissBOUNDARIES3D.
+
+### License
+
+Geodata from swisstopo is licensed under the Licence for the free geodata of the Federal Office of Topography swisstopo
