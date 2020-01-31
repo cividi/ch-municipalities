@@ -4,7 +4,9 @@
 
 > This repository is part of the Smartuse Toolbox
 
-This repository compiles tools to generate a Frictionless Data compliant Datapackage of the current Swiss municipalities published by the Swiss Federal Office of Topography [here](https://shop.swisstopo.admin.ch/en/products/landscape/boundaries3D). 
+> Background and data processing: [github.com/smartuse/toolbox-municipalities](https://github.com/smartuse/toolbox-municipalities)
+
+This repository compiles tools to generate a Frictionless Data compliant Datapackage of the current Swiss municipalities in CSV and JSON formats. 
 
 To add new datasets or make modifications, please visit our [GitHub repository](https://github.com/smartuse/toolbox-municipalities) and contact us via Issues or Pull Request.
 
