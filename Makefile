@@ -17,6 +17,7 @@ data/gemeinden.csv: build/gemeinden-clean.gpkg
 	sed -i .bkp 's/ [(][A-Z][A-Z][)]//g' $@
 
 build/gemeinden-clean.gpkg: build/gemeinden.gpkg
+	mkdir -p $(dir $@)
 	ogr2ogr -f GPKG $@ $< -sql 'select distinct `gemeinde.BFS_NUMMER`,`gemeinde.NAME`,`kanton.KUERZEL`,`kanton.NAME` from gemeinde'
 
 build/gemeinden.gpkg: src/kantone.csv build/kantone.csv
