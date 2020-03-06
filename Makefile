@@ -2,6 +2,7 @@ CKAN_Endpoint = "https://opendata.swiss/api/3/"
 # action/package_show?id=
 PKG_ID = swissboundaries3d_gemeindegrenzen
 FILE_NAME = swissBOUNDARIES3D
+GMD = gemeinden-collected.gpkg
 
 .PHONY: all
 
@@ -11,14 +12,18 @@ data/gemeinden.json: data/gemeinden.csv
 	mkdir -p $(dir $@)
 	cat $< | node_modules/.bin/csvtojson > $@
 
-data/gemeinden.csv: build/gemeinden-clean.gpkg
+data/gemeinden.csv: data/gemeinden.geojson
 	mkdir -p $(dir $@)
 	ogr2ogr -f CSV $@ $<
-	sed -i .bkp 's/ [(][A-Z][A-Z][)]//g' $@
 
-build/gemeinden-clean.gpkg: build/gemeinden.gpkg
+data/gemeinden.geojson: build/gemeinden-clean.gpkg
 	mkdir -p $(dir $@)
-	ogr2ogr -f GPKG $@ $< -sql 'select distinct `gemeinde.BFS_NUMMER`,`gemeinde.NAME`,`kanton.KUERZEL`,`kanton.NAME` from gemeinde'
+	ogr2ogr -f GeoJSON -t_srs "EPSG:4326" $@ $<
+	sed -i 's/ [(][A-Z][A-Z][)]//g' $@
+
+build/gemeinden-clean.gpkg: build/gemeinden-collected.gpkg
+	mkdir -p $(dir $@)
+	ogr2ogr -f GPKG $@ $< -dialect sqlite -sql 'select distinct `gemeinde.BFS_NUMMER`,`gemeinde.NAME`,`kanton.KUERZEL`,`kanton.NAME`, geom from "gemeinden-collected" WHERE `gemeinde.BFS_NUMMER` < 9000 OR `gemeinde.BFS_NUMMER` > 9999'
 
 build/gemeinden.gpkg: src/kantone.csv build/kantone.csv
 	ogr2ogr -f GPKG -sql "select gemeinde.*, kanton.* from swissBOUNDARIES3D_1_3_TLM_HOHEITSGEBIET AS gemeinde left join '$<'.kantone as kanton on gemeinde.KANTONSNUM = kanton.KANTONSNUM WHERE gemeinde.ICC = 'CH'" $@ downloads/$(PKG_ID)/BOUNDARIES_2020/DATEN/swissBOUNDARIES3D/SHAPEFILE_LV95_LN02/swissBOUNDARIES3D_1_3_TLM_HOHEITSGEBIET.shp -nln "gemeinde"

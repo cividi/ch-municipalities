@@ -22,11 +22,13 @@
       {
         "path": "data/gemeinden.json",
         "title": "CH Gemeindeliste JSON",
-        "name": "gemeinden-json"
+        "name": "gemeinden-json",
+        "mediatype": "application/json"
       },{
         "path": "data/gemeinden.csv",
         "title": "CH Gemeindeliste CSV",
         "name": "gemeinden-csv",
+        "mediatype": "text/csv",
         "schema": {
           "fields": [
             {
@@ -55,6 +57,12 @@
             }
           ]
         }
+      },
+      {
+        "path": "data/gemeinden.geojson",
+        "title": "CH Gemeindeliste GeoJSON",
+        "name": "gemeinden-geojson",
+        "mediatype": "application/geo+json"
       }
     ],
     "contributors":[

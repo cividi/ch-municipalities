@@ -3,7 +3,6 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 "1631",Glarus Süd,GL,Glarus
 "3746",Zernez,GR,Graubünden
 "3543",Surses,GR,Graubünden
-"9758",Lac Léman,VD,Vaud
 "6031",Bagnes,VS,Valais
 "3851",Davos,GR,Graubünden
 "3792",Bregaglia,GR,Graubünden
@@ -53,7 +52,6 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 "843",Saanen,BE,Bern
 "3784",Pontresina,GR,Graubünden
 "5841",Château-d'Oex,VD,Vaud
-"9329",Bodensee,TG,Thurgau
 "2163",Val-de-Charmey,FR,Fribourg
 "5317",Maggia,TI,Ticino
 "6288",Saas-Almagell,VS,Valais
@@ -90,7 +88,6 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 "6024",Nendaz,VS,Valais
 "1403",Giswil,OW,Obwalden
 "6023",Conthey,VS,Valais
-"9155",Lac de Neuchâtel,NE,Neuchâtel
 "3891",Luzein,GR,Graubünden
 "1209",Gurtnellen,UR,Uri
 "1219",Unterschächen,UR,Uri
@@ -146,7 +143,6 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 "1401",Alpnach,OW,Obwalden
 "3752",Samnaun,GR,Graubünden
 "1002",Entlebuch,LU,Luzern
-"9051",Zürichsee,ZH,Zürich
 "6421",La Chaux-de-Fonds,NE,Neuchâtel
 "938",Sigriswil,BE,Bern
 "6082",Ayent,VS,Valais
@@ -185,13 +181,11 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 "6213",Evionnaz,VS,Valais
 "573",Brienz,BE,Bern
 "2325",Châtel-Saint-Denis,FR,Fribourg
-"9073",Thunersee,BE,Bern
 "3311",Amden,SG,St. Gallen
 "6008",Ried-Brig,VS,Valais
 "3734",Trin,GR,Graubünden
 "1203",Attinghausen,UR,Uri
 "6730",Val Terbi,JU,Jura
-"9328",Bodensee,SG,St. Gallen
 "1405",Lungern,OW,Obwalden
 "1375",Unteriberg,SZ,Schwyz
 "3823",Soazza,GR,Graubünden
@@ -222,7 +216,6 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 "3103",Rüte,AI,Appenzell Innerrhoden
 "3733",Tamins,GR,Graubünden
 "785",Meiringen,BE,Bern
-"9154",Lac de Neuchâtel,VD,Vaud
 "1005",Hasle,LU,Luzern
 "6290",Saas-Fee,VS,Valais
 "3315",Schänis,SG,St. Gallen
@@ -231,7 +224,6 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 "3203",St. Gallen,SG,St. Gallen
 "1066",Schwarzenberg,LU,Luzern
 "6157",Val-d'Illiez,VS,Valais
-"9149",Bielersee,BE,Bern
 "5076",Personico,TI,Ticino
 "6151",Champéry,VS,Valais
 "3834",Roveredo,GR,Graubünden
@@ -308,7 +300,6 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 "6289",Saas-Balen,VS,Valais
 "6152",Collombey-Muraz,VS,Valais
 "879",Riggisberg,BE,Bern
-"9089",Brienzersee,BE,Bern
 "6104",Ergisch,VS,Valais
 "297",Bauma,ZH,Zürich
 "2336",Semsales,FR,Fribourg
@@ -1060,7 +1051,6 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 "2844",Buus,BL,Basel-Landschaft
 "5118",Minusio,TI,Ticino
 "546",Münchenbuchsee,BE,Bern
-"9751",Lac de Joux,VD,Vaud
 "4864",Steckborn,TG,Thurgau
 "116",Grüningen,ZH,Zürich
 "580",Hofstetten bei Brienz,BE,Bern
@@ -1103,14 +1093,12 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 "2895",Waldenburg,BL,Basel-Landschaft
 "5721",Gland,VD,Vaud
 "2140",Marsens,FR,Fribourg
-"9040",Greifensee,ZH,Zürich
 "4076",Sarmenstorf,AG,Aargau
 "5477",Cossonay,VD,Vaud
 "1147",Wikon,LU,Luzern
 "4044",Untersiggenthal,AG,Aargau
 "2931",Bargen,SH,Schaffhausen
 "4318",Schneisingen,AG,Aargau
-"9296",Lac de Morat,VD,Vaud
 "4095",Brugg,AG,Aargau
 "92",Oberglatt,ZH,Zürich
 "703",Reconvilier,BE,Bern
@@ -2045,7 +2033,6 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 "2842",Böckten,BL,Basel-Landschaft
 "2859",Rümlingen,BL,Basel-Landschaft
 "5933",Valeyres-sous-Montagny,VD,Vaud
-"194",Greifensee,ZH,Zürich
 "5257",Morbio Inferiore,TI,Ticino
 "2864",Thürnen,BL,Basel-Landschaft
 "4786",Wilen,TG,Thurgau
@@ -2058,7 +2045,6 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 "5210",Paradiso,TI,Ticino
 "2089",Montet (Glâne),FR,Fribourg
 "606",Brenzikofen,BE,Bern
-"9152",Lac de Neuchâtel,BE,Bern
 "5412",Rennaz,VD,Vaud
 "4197",Hallwil,AG,Aargau
 "5181",Curio,TI,Ticino
@@ -2211,7 +2197,6 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 "5186",Grancia,TI,Ticino
 "5213",Ponte Tresa,TI,Ticino
 "2225",Senèdes,FR,Fribourg
-"9150",Bielersee,NE,Neuchâtel
 "5488",Mauraz,VD,Vaud
 "5588",Paudex,VD,Vaud
 "4651",Gottlieben,TG,Thurgau
