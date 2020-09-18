@@ -1,5 +1,4 @@
 build/
 downloads/*
-!downloads/swissBOUNDARIES3D.zip
 .DS_Store
 node_modules
