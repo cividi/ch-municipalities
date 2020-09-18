@@ -36,6 +36,8 @@ build/kantone.csv: downloads/$(FILE_NAME).zip
 # 	mv $@.download $@
 
 clean:
+	rm -rf build/
+	rm -rf downloads/$(PKG_ID)/
 	rm data/gemeinden.csv.bkp
 
 # clean-unzip:
