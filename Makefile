@@ -14,7 +14,7 @@ data/gemeinden.json: data/gemeinden.csv
 data/gemeinden.csv: build/gemeinden-clean.gpkg
 	mkdir -p $(dir $@)
 	ogr2ogr -f CSV $@ $<
-	sed -i .bkp 's/ [(][A-Z][A-Z][)]//g' $@
+	sed -i.bkp 's/ [(][A-Z][A-Z][)]//g' $@
 
 build/gemeinden-clean.gpkg: build/gemeinden.gpkg
 	mkdir -p $(dir $@)
