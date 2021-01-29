@@ -4,11 +4,11 @@
 
 > This repository is part of the Smartuse Toolbox
 
-> Background and data processing: [github.com/smartuse/toolbox-municipalities](https://github.com/smartuse/toolbox-municipalities)
+> Background and data processing: [github.com/cividi/ch-municipalities](https://github.com/cividi/ch-municipalities)
 
 This repository compiles tools to generate a Frictionless Data compliant Datapackage of the current Swiss municipalities in CSV, JSON and GeoJSON formats.
 
-To add new datasets or make modifications, please visit our [GitHub repository](https://github.com/smartuse/toolbox-municipalities) and contact us via Issues or Pull Request.
+To add new datasets or make modifications, please visit our [GitHub repository](https://github.com/cividi/ch-municipalities) and contact us via Issues or Pull Request.
 
 Published on [Datahub](https://datahub.io/n0rdlicht/ch-municipalities/).
 Validated on [GoodTables](https://goodtables.io)
