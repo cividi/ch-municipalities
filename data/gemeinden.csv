@@ -118,7 +118,6 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 191,Dübendorf,ZH,Zürich
 192,Egg,ZH,Zürich
 193,Fällanden,ZH,Zürich
-194,Greifensee,ZH,Zürich
 195,Maur,ZH,Zürich
 196,Mönchaltorf,ZH,Zürich
 197,Schwerzenbach,ZH,Zürich
@@ -182,6 +181,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 331,Lotzwil,BE,Bern
 332,Madiswil,BE,Bern
 333,Melchnau,BE,Bern
+334,Obersteckholz,BE,Bern
 335,Oeschenbach,BE,Bern
 336,Reisiswil,BE,Bern
 337,Roggwil,BE,Bern
@@ -235,6 +235,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 413,Koppigen,BE,Bern
 414,Krauchthal,BE,Bern
 415,Lyssach,BE,Bern
+416,Mötschwil,BE,Bern
 418,Oberburg,BE,Bern
 420,Rüdtligen-Alchenflüh,BE,Bern
 421,Rumendingen,BE,Bern
@@ -431,6 +432,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 877,Niedermuhlern,BE,Bern
 879,Riggisberg,BE,Bern
 880,Rüeggisberg,BE,Bern
+881,Rümligen,BE,Bern
 883,Seftigen,BE,Bern
 884,Toffen,BE,Bern
 885,Uttigen,BE,Bern
@@ -509,6 +511,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 1009,Werthenstein,LU,Luzern
 1010,Escholzmatt-Marbach,LU,Luzern
 1021,Aesch,LU,Luzern
+1022,Altwis,LU,Luzern
 1023,Ballwil,LU,Luzern
 1024,Emmen,LU,Luzern
 1025,Ermensee,LU,Luzern
@@ -566,6 +569,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 1127,Egolzwil,LU,Luzern
 1128,Ettiswil,LU,Luzern
 1129,Fischbach,LU,Luzern
+1130,Gettnau,LU,Luzern
 1131,Grossdietwil,LU,Luzern
 1132,Hergiswil bei Willisau,LU,Luzern
 1135,Luthern,LU,Luzern
@@ -583,6 +587,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 1201,Altdorf,UR,Uri
 1202,Andermatt,UR,Uri
 1203,Attinghausen,UR,Uri
+1204,Bauen,UR,Uri
 1205,Bürglen,UR,Uri
 1206,Erstfeld,UR,Uri
 1207,Flüelen,UR,Uri
@@ -662,6 +667,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 1710,Walchwil,ZG,Zug
 1711,Zug,ZG,Zug
 2008,Châtillon,FR,Fribourg
+2009,Cheiry,FR,Fribourg
 2011,Cugy,FR,Fribourg
 2016,Fétigny,FR,Fribourg
 2022,Gletterens,FR,Fribourg
@@ -722,12 +728,14 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 2160,Vuadens,FR,Fribourg
 2162,Bas-Intyamon,FR,Fribourg
 2163,Val-de-Charmey,FR,Fribourg
+2171,Arconciel,FR,Fribourg
 2173,Autigny,FR,Fribourg
 2174,Avry,FR,Fribourg
 2175,Belfaux,FR,Fribourg
 2177,Chénens,FR,Fribourg
 2183,Corminboeuf,FR,Fribourg
 2186,Cottens,FR,Fribourg
+2189,Ependes,FR,Fribourg
 2194,Ferpicloz,FR,Fribourg
 2196,Fribourg,FR,Fribourg
 2197,Givisiez,FR,Fribourg
@@ -739,6 +747,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 2216,Pierrafortscha,FR,Fribourg
 2217,Ponthaux,FR,Fribourg
 2220,Le Mouret,FR,Fribourg
+2225,Senèdes,FR,Fribourg
 2226,Treyvaux,FR,Fribourg
 2228,Villars-sur-Glâne,FR,Fribourg
 2230,Villarsel-sur-Marly,FR,Fribourg
@@ -747,7 +756,6 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 2235,La Sonnaz,FR,Fribourg
 2236,Gibloux,FR,Fribourg
 2237,Prez,FR,Fribourg
-2238,Bois-d'Amont,FR,Fribourg
 2250,Courgevaux,FR,Fribourg
 2254,Courtepin,FR,Fribourg
 2257,Cressier,FR,Fribourg
@@ -765,6 +773,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 2276,Ried bei Kerzers,FR,Fribourg
 2278,Ulmiz,FR,Fribourg
 2284,Mont-Vully,FR,Fribourg
+2291,Alterswil,FR,Fribourg
 2292,Brünisried,FR,Fribourg
 2293,Düdingen,FR,Fribourg
 2294,Giffers,FR,Fribourg
@@ -773,6 +782,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 2299,Plaffeien,FR,Fribourg
 2300,Plasselb,FR,Fribourg
 2301,Rechthalten,FR,Fribourg
+2302,St. Antoni,FR,Fribourg
 2303,St. Silvester,FR,Fribourg
 2304,St. Ursen,FR,Fribourg
 2305,Schmitten,FR,Fribourg
@@ -800,12 +810,13 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 2408,Wolfwil,SO,Solothurn
 2421,Aedermannsdorf,SO,Solothurn
 2422,Balsthal,SO,Solothurn
+2423,Gänsbrunnen,SO,Solothurn
 2424,Herbetswil,SO,Solothurn
 2425,Holderbank,SO,Solothurn
 2426,Laupersdorf,SO,Solothurn
 2427,Matzendorf,SO,Solothurn
 2428,Mümliswil-Ramiswil,SO,Solothurn
-2430,Welschenrohr-Gänsbrunnen,SO,Solothurn
+2429,Welschenrohr,SO,Solothurn
 2445,Biezwil,SO,Solothurn
 2455,Lüterkofen-Ichertswil,SO,Solothurn
 2456,Lüterswil-Gächliwil,SO,Solothurn
@@ -830,6 +841,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 2493,Lostorf,SO,Solothurn
 2495,Niedergösgen,SO,Solothurn
 2497,Obergösgen,SO,Solothurn
+2498,Rohr,SO,Solothurn
 2499,Stüsslingen,SO,Solothurn
 2500,Trimbach,SO,Solothurn
 2501,Winznau,SO,Solothurn
@@ -1145,11 +1157,14 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 3681,Avers,GR,Graubünden
 3695,Sufers,GR,Graubünden
 3701,Andeer,GR,Graubünden
+3703,Casti-Wergenstein,GR,Graubünden
+3705,Donat,GR,Graubünden
+3707,Lohn,GR,Graubünden
+3708,Mathon,GR,Graubünden
 3711,Rongellen,GR,Graubünden
 3712,Zillis-Reischen,GR,Graubünden
 3713,Ferrera,GR,Graubünden
 3714,Rheinwald,GR,Graubünden
-3715,Muntogna da Schons,GR,Graubünden
 3721,Bonaduz,GR,Graubünden
 3722,Domat/Ems,GR,Graubünden
 3723,Rhäzüns,GR,Graubünden
@@ -1165,7 +1180,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 3782,Celerina/Schlarigna,GR,Graubünden
 3783,Madulain,GR,Graubünden
 3784,Pontresina,GR,Graubünden
-3785,La Punt Chamues-ch,GR,Graubünden
+3785,La Punt-Chamues-ch,GR,Graubünden
 3786,Samedan,GR,Graubünden
 3787,St. Moritz,GR,Graubünden
 3788,S-chanf,GR,Graubünden
@@ -1190,7 +1205,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 3861,Fideris,GR,Graubünden
 3862,Furna,GR,Graubünden
 3863,Jenaz,GR,Graubünden
-3871,Klosters,GR,Graubünden
+3871,Klosters-Serneus,GR,Graubünden
 3881,Conters im Prättigau,GR,Graubünden
 3882,Küblis,GR,Graubünden
 3891,Luzein,GR,Graubünden
@@ -1198,6 +1213,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 3911,Churwalden,GR,Graubünden
 3921,Arosa,GR,Graubünden
 3932,Tschiertschen-Praden,GR,Graubünden
+3941,Haldenstein,GR,Graubünden
 3945,Trimmis,GR,Graubünden
 3946,Untervaz,GR,Graubünden
 3947,Zizers,GR,Graubünden
@@ -1526,8 +1542,11 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 5078,Prato (Leventina),TI,Ticino
 5079,Quinto,TI,Ticino
 5091,Ascona,TI,Ticino
+5095,Brione (Verzasca),TI,Ticino
 5096,Brione sopra Minusio,TI,Ticino
 5097,Brissago,TI,Ticino
+5102,Corippo,TI,Ticino
+5105,Frasco,TI,Ticino
 5108,Gordola,TI,Ticino
 5112,Lavertezzo,TI,Ticino
 5113,Locarno,TI,Ticino
@@ -1537,7 +1556,9 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 5120,Muralto,TI,Ticino
 5121,Orselina,TI,Ticino
 5125,Ronco sopra Ascona,TI,Ticino
+5129,Sonogno,TI,Ticino
 5131,Tenero-Contra,TI,Ticino
+5135,Vogorno,TI,Ticino
 5136,Onsernone,TI,Ticino
 5138,Cugnasco-Gerra,TI,Ticino
 5141,Agno,TI,Ticino
@@ -1618,7 +1639,6 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 5396,Terre di Pedemonte,TI,Ticino
 5397,Centovalli,TI,Ticino
 5398,Gambarogno,TI,Ticino
-5399,Verzasca,TI,Ticino
 5401,Aigle,VD,Vaud
 5402,Bex,VD,Vaud
 5403,Chessel,VD,Vaud
@@ -1645,6 +1665,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 5429,Longirod,VD,Vaud
 5430,Marchissy,VD,Vaud
 5431,Mollens,VD,Vaud
+5432,Montherod,VD,Vaud
 5434,Saint-George,VD,Vaud
 5435,Saint-Livres,VD,Vaud
 5436,Saint-Oyens,VD,Vaud
@@ -1803,7 +1824,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 5710,Coinsins,VD,Vaud
 5711,Commugny,VD,Vaud
 5712,Coppet,VD,Vaud
-5713,Crans,VD,Vaud
+5713,Crans-près-Céligny,VD,Vaud
 5714,Crassier,VD,Vaud
 5715,Duillier,VD,Vaud
 5716,Eysins,VD,Vaud
@@ -1939,11 +1960,12 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 6023,Conthey,VS,Valais
 6024,Nendaz,VS,Valais
 6025,Vétroz,VS,Valais
+6031,Bagnes,VS,Valais
 6032,Bourg-Saint-Pierre,VS,Valais
 6033,Liddes,VS,Valais
 6034,Orsières,VS,Valais
 6035,Sembrancher,VS,Valais
-6037,Val de Bagnes,VS,Valais
+6036,Vollèges,VS,Valais
 6052,Bellwald,VS,Valais
 6054,Binn,VS,Valais
 6056,Ernen,VS,Valais
@@ -1971,6 +1993,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 6118,Gampel-Bratsch,VS,Valais
 6119,Turtmann-Unterems,VS,Valais
 6131,Bovernier,VS,Valais
+6132,Charrat,VS,Valais
 6133,Fully,VS,Valais
 6134,Isérables,VS,Valais
 6135,Leytron,VS,Valais
@@ -2020,11 +2043,13 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 6238,Grône,VS,Valais
 6239,Icogne,VS,Valais
 6240,Lens,VS,Valais
+6241,Miège,VS,Valais
 6246,Saint-Léonard,VS,Valais
 6248,Sierre,VS,Valais
+6249,Venthône,VS,Valais
+6250,Veyras,VS,Valais
 6252,Anniviers,VS,Valais
 6253,Crans-Montana,VS,Valais
-6254,Noble-Contrée,VS,Valais
 6261,Arbaz,VS,Valais
 6263,Grimisuat,VS,Valais
 6265,Savièse,VS,Valais
@@ -2050,13 +2075,16 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 6299,Zeneggen,VS,Valais
 6300,Zermatt,VS,Valais
 6404,Boudry,NE,Neuchâtel
+6407,Corcelles-Cormondrèche,NE,Neuchâtel
 6408,Cortaillod,NE,Neuchâtel
+6412,Peseux,NE,Neuchâtel
 6413,Rochefort,NE,Neuchâtel
 6416,Milvignes,NE,Neuchâtel
-6417,La Grande Béroche,NE,Neuchâtel
+6417,La Grande-Béroche,NE,Neuchâtel
 6421,La Chaux-de-Fonds,NE,Neuchâtel
 6422,Les Planchettes,NE,Neuchâtel
 6423,La Sagne,NE,Neuchâtel
+6431,Les Brenets,NE,Neuchâtel
 6432,La Brévine,NE,Neuchâtel
 6433,Brot-Plamboz,NE,Neuchâtel
 6434,Le Cerneux-Péquignot,NE,Neuchâtel
@@ -2072,6 +2100,7 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 6458,Neuchâtel,NE,Neuchâtel
 6459,Saint-Blaise,NE,Neuchâtel
 6461,La Tène,NE,Neuchâtel
+6485,Valangin,NE,Neuchâtel
 6487,Val-de-Ruz,NE,Neuchâtel
 6504,La Côte-aux-Fées,NE,Neuchâtel
 6511,Les Verrières,NE,Neuchâtel
@@ -2174,17 +2203,3 @@ gemeinde.BFS_NUMMER,gemeinde.NAME,kanton.KUERZEL,kanton.NAME
 6808,Clos du Doubs,JU,Jura
 6809,Haute-Ajoie,JU,Jura
 6810,La Baroche,JU,Jura
-9040,Greifensee,ZH,Zürich
-9051,Zürichsee,ZH,Zürich
-9073,Thunersee,BE,Bern
-9089,Brienzersee,BE,Bern
-9149,Bielersee,BE,Bern
-9150,Bielersee,NE,Neuchâtel
-9152,Lac de Neuchâtel,BE,Bern
-9154,Lac de Neuchâtel,VD,Vaud
-9155,Lac de Neuchâtel,NE,Neuchâtel
-9296,Lac de Morat,VD,Vaud
-9328,Bodensee,SG,St. Gallen
-9329,Bodensee,TG,Thurgau
-9751,Lac de Joux,VD,Vaud
-9758,Lac Léman,VD,Vaud
