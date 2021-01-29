@@ -6,7 +6,7 @@
 
 > Background and data processing: [github.com/smartuse/toolbox-municipalities](https://github.com/smartuse/toolbox-municipalities)
 
-This repository compiles tools to generate a Frictionless Data compliant Datapackage of the current Swiss municipalities in CSV and JSON formats. 
+This repository compiles tools to generate a Frictionless Data compliant Datapackage of the current Swiss municipalities in CSV, JSON and GeoJSON formats.
 
 To add new datasets or make modifications, please visit our [GitHub repository](https://github.com/smartuse/toolbox-municipalities) and contact us via Issues or Pull Request.
 
@@ -32,8 +32,9 @@ Now, clone this reposiory and run `make`
 
 The downloads, build and the data folders should now be populated with processes files.
 
-* `data/gemeinden.csv` contains a list of municipalities
-* `data/gemeinden.json` is the same list as nested JSON
+* `data/gemeinden.geojson` is generated first
+* `data/gemeinden.csv` is derived from the `geojson`
+* `data/gemeinden.json` is then derived from the `csv` version
 
 ## Push to Datahub
 
@@ -51,7 +52,7 @@ Then you can update the list by
 
 ## Author
 
-Thorben Westerhuys, SmartUse GmbH
+Thorben Westerhuys, cividi GmbH
 
 ## Datapackage
 

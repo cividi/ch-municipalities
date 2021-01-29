@@ -1,7 +1,7 @@
 {
     "name": "ch-municipalities",
     "title": "Swiss Municipalities",
-    "description": "Swiss Municipalities list as CSV and JSON",
+    "description": "Swiss Municipalities list as GeoJSON, CSV and JSON",
     "format": "csv",
     "datapackage_version": "1.0.0",
     "last_modified": "2020-01-21",
@@ -22,11 +22,13 @@
       {
         "path": "data/gemeinden.json",
         "title": "CH Gemeindeliste JSON",
-        "name": "gemeinden-json"
+        "name": "gemeinden-json",
+        "mediatype": "application/json"
       },{
         "path": "data/gemeinden.csv",
         "title": "CH Gemeindeliste CSV",
         "name": "gemeinden-csv",
+        "mediatype": "text/csv",
         "schema": {
           "fields": [
             {
@@ -55,13 +57,19 @@
             }
           ]
         }
+      },
+      {
+        "path": "data/gemeinden.geojson",
+        "title": "CH Gemeindeliste GeoJSON",
+        "name": "gemeinden-geojson",
+        "mediatype": "application/geo+json"
       }
     ],
     "contributors":[
     {
-      "title": "SmartUse GmbH",
-      "email": "info@smartuse.ch",
-      "web": "http://smartuse.ch"
+      "title": "cividi GmbH",
+      "email": "info@cividi.ch",
+      "web": "http://cividi.ch"
     }],
     "maintainers":[
     {
