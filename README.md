@@ -52,7 +52,7 @@ Then you can update the list by
 
 ## Author
 
-Thorben Westerhuys, SmartUse GmbH
+Thorben Westerhuys, cividi GmbH
 
 ## Datapackage
 
